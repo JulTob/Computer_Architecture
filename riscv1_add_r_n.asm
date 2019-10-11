@@ -22,4 +22,7 @@
 	#-- devolver el control al sistema operativo
 	#-- Control al sistema operativo.
 	li a7, 10
+		#-- li  Load Inmediate
+		#-- a7  System Call Register
+		#-- 10  Service Number 10: EXIT
 	ecall
