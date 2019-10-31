@@ -1,0 +1,20 @@
+#-- Programa Ejercicio 5
+#-- Practicas de Arquitectura de Computadores
+#-- Julio A Toboso Garcia.
+
+#-- 
+#--   ¿Que hace esto?
+
+.text
+	#-- Pone x3 a cero
+	addi x3, x0, 10
+a:
+#-- Marcador del loop
+	addi x3,x3,-1
+	#-- Resta 1 a x3
+	bgt x3,x0, a
+	#-- Branch si mayor que , x3 de cero, al marcador "a" del loop
+	
+	li a7, 10
+	ecall
+#-- Exit
