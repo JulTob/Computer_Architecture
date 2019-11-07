@@ -1,0 +1,19 @@
+beq>:1
+
+2 ++pc md
+ImmGen)64
+nsec)0,53
+mdI:100
+20
+Cntrl:Dec"opcode"All.
+SM:err_op_illgl@DecAnyInst(2)
+microprog) flex minArea slowr
+
+
+Decodificación Multinivel
+
+
+
+risk pc:< ID | jmp_ID
+ps:rs fu
+pscad
