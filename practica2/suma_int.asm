@@ -21,3 +21,10 @@ bucle:
 	
 	#-- Repetir el bucle
 	b bucle
+
+
+#-- Total: 5 Instructions (3xAddi 1xAdd 1xJal)
+#-- 20 bytes  [4 bytes por instrucción] bin file
+#-- 522 bytes text file.
+
+#-- n = 25 -->  325
